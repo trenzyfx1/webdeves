@@ -92,7 +92,7 @@ header button {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    /* top: 4pc; */
+    top: 4pc;
     display: flex;
     margin: auto;
     align-items: center;
@@ -159,7 +159,6 @@ header button {
 
 
 .hero-content {
-    margin-top: 5pc;
     width: 45%;
     position: relative;
     z-index: 2;
@@ -220,7 +219,6 @@ h1 {
 }
 
 .spiral {
-    margin-top: 5pc;
     width: 30vw;
     height: 30vw;
     margin-right: 50px;
