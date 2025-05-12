@@ -7,8 +7,6 @@
 body {
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    width: 100%;
     font-family: "Archivo", sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -869,11 +867,7 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 1105px) {
-
-    body {
-        max-width: 100%;
-    }
+@media (max-width: 768px) {
 
     header {
         /* align-items: start; */
@@ -951,40 +945,13 @@ footer {
         right: 0;
     }
 
-    .service-head {
-        width: 90%;
-    }
-
-    .service-head h2 {
-        padding: 10px;
-        line-height: 1;
-    }
-
     .services-section {
         height: auto;
     }
 
-    .service-card {
-        width: auto;
-        margin-bottom: 40px;
-    }
+    .
 
-    .section4 section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section4-body {
-        width: 305px;
-    }
-
-    .section4-body-img-container img {
-        width: 305px;
-        height: auto;
-    }
-
-    .section5 {
+    .section4 {
         display: none;
     }
 

@@ -7,8 +7,6 @@
 body {
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    width: 100%;
     font-family: "Archivo", sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -246,12 +244,12 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 60px 10%;
-    flex-wrap: wrap;
+    flex-wrap: ;
     background-color: #fff;
 }
 
 .about-content {
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 .about-title {
@@ -310,7 +308,7 @@ h2 {
 
 .about-images {
     position: relative;
-    max-width: 45%;
+    /* max-width: 45%; */
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -869,11 +867,7 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 1105px) {
-
-    body {
-        max-width: 100%;
-    }
+@media (max-width: 768px) {
 
     header {
         /* align-items: start; */
@@ -927,64 +921,7 @@ footer {
         display: none;
     }
 
-    .about-content, .about-images {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .about-images {
-        margin-top: 3pc;
-        display: flex;
-        justify-content: center;
-    }
-
-    .about-content h2 {
-        font-size: 20px;
-    }
-
-    .img-small {
-        display: none;
-    }
-
-    .experience-badge {
-        left: 0;
-        right: 0;
-    }
-
-    .service-head {
-        width: 90%;
-    }
-
-    .service-head h2 {
-        padding: 10px;
-        line-height: 1;
-    }
-
-    .services-section {
-        height: auto;
-    }
-
-    .service-card {
-        width: auto;
-        margin-bottom: 40px;
-    }
-
-    .section4 section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section4-body {
-        width: 305px;
-    }
-
-    .section4-body-img-container img {
-        width: 305px;
-        height: auto;
-    }
-
-    .section5 {
+    .section4 {
         display: none;
     }
 

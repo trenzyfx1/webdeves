@@ -7,8 +7,6 @@
 body {
     padding: 0;
     margin: 0;
-    max-width: 100%;
-    width: 100%;
     font-family: "Archivo", sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -95,9 +93,8 @@ header button {
     background-repeat: no-repeat;
     height: 100vh;
     /* top: 4pc; */
-    /* display: flex; */
+    display: flex;
     margin: auto;
-    flex-wrap: wrap;
     align-items: center;
     position: relative;
 }
@@ -224,8 +221,8 @@ h1 {
 
 .spiral {
     margin-top: 5pc;
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
     margin-right: 50px;
     animation: rotate360 10s linear infinite;
 }
@@ -246,7 +243,6 @@ h1 {
     align-items: center;
     justify-content: space-between;
     padding: 60px 10%;
-    flex-wrap: wrap;
     background-color: #fff;
 }
 
@@ -506,15 +502,13 @@ h2 {
     padding: 40px 0;
 }
 
-.section4-head,
-.section6-head {
+.section4-head, .section6-head {
     width: 80%;
     margin: auto;
     text-align: center;
 }
 
-.section4-head h3,
-.section6-head h3 {
+.section4-head h3, .section6-head h3 {
     padding: 6px 12px;
     display: inline-block;
     background-color: rgba(253, 211, 147, 0.658);
@@ -522,16 +516,14 @@ h2 {
     font-size: 1.5rem;
 }
 
-.section4-head h2,
-.section6-head h2 {
+.section4-head h2, .section6-head h2 {
     font-size: 2.5rem;
     color: #3d3a3a;
     margin: 15px;
     text-transform: capitalize;
 }
 
-.section4-head p,
-.section6-head p {
+.section4-head p, .section6-head p {
     font-size: 1.2rem;
     color: #3d3a3a;
     margin-bottom: 30px;
@@ -850,8 +842,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.footer-section p,
-.footer-section a {
+.footer-section p, .footer-section a {
     color: #ecf0f1;
     margin-bottom: 10px;
     display: block;
@@ -869,129 +860,14 @@ footer {
     margin-top: 20px;
 }
 
-@media (max-width: 1105px) {
+@media (max-width: 768px) {
 
-    body {
-        max-width: 100%;
-    }
-
-    header {
-        /* align-items: start; */
-        display: flex;
-        justify-content: left;
-    }
-
-    .section1 {
-        margin-top: 5pc;
-        display: flex;
-        flex-direction: column !important;
-        flex-wrap: wrap;
-        text-align: center;
-        height: auto;
-    }
-
-    h1 {
-        font-size: 50px;
-        line-height: 1;
-    }
-
-    .hero-content p {
-        font-size: 16px;
-        width: 80%;
-        margin: auto;
-    }
-
-    .buttons {
-        /* align-items: center; */
-        display: flex;
-        justify-content: center;
-    }
-
-    .hero-content {
-        width: 100%;
-    }
-
-    .section1 .vertical-text {
-        display: none;
-    }
-
-    .spiral {
-        height: 400px;
-        width: 400px;
-        margin: auto;
-        padding: 40px;
-    }
-
-    header nav,
-    .lets-talk {
-        display: none;
-    }
-
-    .about-content, .about-images {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .about-images {
-        margin-top: 3pc;
-        display: flex;
-        justify-content: center;
-    }
-
-    .about-content h2 {
-        font-size: 20px;
-    }
-
-    .img-small {
-        display: none;
-    }
-
-    .experience-badge {
-        left: 0;
-        right: 0;
-    }
-
-    .service-head {
-        width: 90%;
-    }
-
-    .service-head h2 {
-        padding: 10px;
-        line-height: 1;
-    }
-
-    .services-section {
-        height: auto;
-    }
-
-    .service-card {
-        width: auto;
-        margin-bottom: 40px;
-    }
-
-    .section4 section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section4-body {
-        width: 305px;
-    }
-
-    .section4-body-img-container img {
-        width: 305px;
-        height: auto;
-    }
-
-    .section5 {
-        display: none;
-    }
+header nav
 
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
+    
     .footer-content {
         flex-direction: column;
     }
