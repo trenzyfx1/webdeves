@@ -885,13 +885,12 @@ footer {
         display: flex;
         flex-direction: column !important;
         flex-wrap: wrap;
-        text-align: center;
+        /* text-align: center; */
         height: auto;
-        padding: 0;
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 45px;
         line-height: 1;
     }
 
@@ -909,8 +908,6 @@ footer {
 
     .hero-content {
         width: 100%;
-        padding: 0;
-        /* margin: 0; */
     }
 
     .section1 .vertical-text {
@@ -918,8 +915,8 @@ footer {
     }
 
     .spiral {
-        height: 380px;
-        width: 380px;
+        height: 400px;
+        width: 400px;
         margin: auto;
         padding: 40px;
     }

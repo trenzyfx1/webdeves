@@ -887,7 +887,6 @@ footer {
         flex-wrap: wrap;
         text-align: center;
         height: auto;
-        padding: 0;
     }
 
     h1 {
@@ -918,8 +917,8 @@ footer {
     }
 
     .spiral {
-        height: 380px;
-        width: 380px;
+        height: 400px;
+        width: 400px;
         margin: auto;
         padding: 40px;
     }

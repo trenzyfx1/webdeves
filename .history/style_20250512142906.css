@@ -918,8 +918,8 @@ footer {
     }
 
     .spiral {
-        height: 380px;
-        width: 380px;
+        height: 0px;
+        width: 400px;
         margin: auto;
         padding: 40px;
     }
